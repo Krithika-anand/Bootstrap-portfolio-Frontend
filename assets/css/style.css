@@ -1,0 +1,241 @@
+* {
+    margin: 0px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  
+  body {
+    background-color: rgba(248, 249, 248, 0.905);
+    color: rgb(99, 98, 98);
+  }
+  
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    ;
+    color: rgb(100, 16, 16);
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    box-shadow: #452a2a;
+  }
+  
+  h1 {
+    font-size: 35px;
+    font-weight: 300;
+    justify-self: center;
+    text-shadow: 0 2px 5px black;
+    justify-self: center;
+  }
+  
+  #my-photo {
+    border-radius: 50%;
+    filter: grayscale(60%);
+    box-shadow: 2px 2px 5px rgb(68, 67, 67);
+  }
+  
+  #nav-bar {
+  
+    display: flex;
+    padding: 7px;
+    justify-content: space-evenly;
+    align-items: center;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+    color: rgb(255, 255, 255);
+    background-color: rgba(49, 80, 82, 0.5);
+    ;
+  }
+  
+  
+  .container {
+    display: inline-flex;
+    align-items: center;
+    width: 95%;
+    border: 20px;
+    margin-bottom: 20px;
+    padding: 30px;
+  }
+  
+  
+  
+  .textshadow {
+    text-shadow: 0px 2px 5px rgb(154, 153, 153);
+  }
+  
+  .textshadow:hover {
+    color: #452a2a;
+    text-shadow: 0px 2px 5px rgb(171, 171, 113)
+  }
+  
+  .textborder {
+    padding-left: 15px;
+    margin-left: 0px;
+    border-left: 3px solid #452a2a;
+  
+  }
+  
+  li {
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
+  #categoryGrid {
+    margin: 0px ;
+    display: grid;
+    grid-template-rows: 400px 250px 250px;
+    grid-template-columns: 3fr 1fr 1fr;
+    grid-template-areas:
+      "architecture architecture architecture"
+      "interiordesign uxDesign uxDesign"
+      "interiordesign webDev others";
+  }
+  
+  #architecture {
+    grid-area: architecture;
+    background-image: url("../images/architecture.jpg");
+  
+  }
+  
+  #interiordesign {
+    grid-area: interiordesign;
+    background-image: url("../images/02-living-01.png");
+  }
+  
+  #uxDesign {
+    grid-area: uxDesign;
+    background-image: url("../images/commingsoon1.png");
+  }
+  
+  #webDev {
+    grid-area: webDev;
+    background-image: url("../images/commingsoon1.png");
+  }
+  
+  #others {
+    grid-area: others;
+    background-image: url("../images/Sankriti\ logo.jpg");
+  }
+  
+  .categoryGridArea {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 2px;
+    display: grid;
+    align-content: center;
+  }
+  
+  .heading:hover {
+  
+    background-color: rgb(68, 67, 67, .9);
+    text-shadow: rgba(68, 31, 31, 0.9);
+  }
+  
+  .heading {
+    background-color: rgba(35, 58, 59, 0.5);
+    padding: 30px;
+    height: 30px fit-content;
+    color: rgb(221, 221, 221);
+    font-size: 22px;
+    font-weight: 400;
+  
+  }
+  
+  footer {
+    display: flex;
+    justify-content: left;
+  }
+  
+  /* typography */
+  
+  #aboutMe p {
+    text-align: justify;
+  }
+  
+  
+  h2 {
+    font-size: 18px;
+  }
+  
+  
+  h3 {
+    font-size: 25px;
+    font-weight: 300;
+    margin: 0px 10px;
+    width: 150px;
+  }
+  
+  a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+  }
+  
+  p {
+    font-size: 18px;
+  }
+  
+  @media only screen and (max-width: 600px) {
+  
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      color: rgb(100, 16, 16);
+      height: 100%;
+      width: 100%;
+      margin: 0;
+      box-shadow: #452a2a;
+    }
+  
+    header #img1 {
+      display: none;
+    }
+  
+    #aboutMe {
+      display: inline-flex;
+      
+    }
+  
+    #categoryGrid {
+      grid-template-rows: 175px 175px 175px 175px 175px;
+      grid-template-columns: 1fr;
+      grid-template-areas:
+        "architecture"
+        "interiordesign"
+        "uxDesign"
+        "webDev"
+        "others";
+      background-position: center;
+      background-size: cover;
+      max-width: fit-content;
+    }
+  
+    #contactMe {
+      display: inline;
+    }
+  
+    h3 {
+      font-size: 22px;
+      width: 100px;
+    }
+  
+    .textborder {
+      padding-left: 15px;
+      padding-right: 5px;
+      margin-left: 0px;
+      border-left: 2px solid rgba(132, 132, 132, 0.905);
+    
+    }
+  
+    .container {
+      display: inline-flex;
+      align-items:flex-start;
+      width: 95%;
+      border: 5px;
+      margin-bottom: 20px;
+      padding: 10px;
+    }
+  
