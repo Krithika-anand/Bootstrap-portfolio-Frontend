@@ -12,14 +12,11 @@
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Anton|Jura&display=swap" rel="stylesheet">
 
-
     <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
     <link rel="icon" href="../my-portfolio/assets/images/logo-edited.ico" type="image/vnd.microsoft.ico">
 </head>
 
-
-
-<body>
+<br>
     <!--Nav-bar-->
     <nav class="navbar fixed-top bg-body-tertiary">
         <div class="container-fluid">
@@ -32,11 +29,11 @@
                 <li class="nav-item">
                     <a class="textshadow" class="nav-link" href="#projects">Projects</a>
                 </li>
-                <li class="nav-item">
-                    <a class="textshadow" class="nav-link" href="#experience">Experience</a>
+                               <li class="nav-item">
+                    <a class="textshadow" class="nav-link active" aria-current="page" href="#aboutMe">Know Me</a>
                 </li>
                 <li class="nav-item">
-                    <a class="textshadow" class="nav-link active" aria-current="page" href="#aboutMe">Know Me</a>
+                    <a class="textshadow" class="nav-link active" aria-current="page" href="#aboutMe">Contact Me</a>
                 </li>
 
             </ul>
@@ -58,54 +55,19 @@
         </div>
     </div>
 
-
+<br id="projects">
 
     <!-- Project/work section -->
-    <div id="projects" class="container">
+    
+
+    <div class="container-fluid container" >
         <div class="textshadow">
             <h3>Projects</h3>
         </div>
-
-        <div id="categoryGrid" class="textborder">
-            <div id="architecture" class="categoryGridArea">
-                <a href="https://www.instagram.com/kadv_studioarchitecture/?igshid=YmMyMTA2M2Y%3D"
-                    class="heading">Architecture</a>
-            </div>
-
-            <div id="interiordesign" class="categoryGridArea">
-
-                <a href="https://www.instagram.com/kadv_studioarchitecture/?igshid=YmMyMTA2M2Y%3D"
-                    class="heading">Interior Design</a>
-            </div>
-
-            <div id="uxDesign" class="categoryGridArea">
-                <a href="#uxDesign" class="heading">UX-Design</a>
-            </div>
-
-            <div id="webDev" class="categoryGridArea">
-
-                <a href="https://github.com/Krithika-anand" class="heading">Web Development</a>
-            </div>
-
-            <div id="others" class="categoryGridArea">
-                <a href="#projects" class="heading">More..</a>
-            </div>
-        </div>
-
-    </div>
-
-    <!-- Experience section -->
-
-    <div id="experience" class="container">
-        <div class="textshadow">
-            <h3>Experience</h3>
-        </div>
-    </div>
-
-    <div class="container">
+<br>
         <div class="row">
-
-            <div class="card" style="width: 18rem;">
+            <!-- card 1 -->
+            <div class="card col-md-2" style="width: 18rem;">
                 <img src="./assets/images/architecture.jpg" class="card-img-top" alt="architecture">
                 <div class="card-body">
                     <h5 class="card-title">Architecture</h5>
@@ -115,8 +77,8 @@
                 <a href="https://www.instagram.com/kadv_studioarchitecture/?igshid=YmMyMTA2M2Y%3D"
                     class="btn btn-primary">Visit projects</a>
             </div>
-
-            <div class="card" style="width: 18rem;">
+            <!-- card 2 -->
+            <div class="card col-md-2" style="width: 18rem;">
                 <img src="./assets/images/interior01.jpg" class="card-img-top" alt="interior">
                 <div class="card-body">
                     <h5 class="card-title">Interior Design</h5>
@@ -126,8 +88,8 @@
                 <a href="https://www.instagram.com/kadv_studioarchitecture/?igshid=YmMyMTA2M2Y%3D"
                     class="btn btn-primary">Visit projects</a>
             </div>
-
-            <div class="card" style="width: 18rem;">
+            <!-- card 3 -->
+            <div class="card col-md-2" style="width: 18rem;">
                 <img src="./assets/images/comingsoon.jfif" class="card-img-top" alt="comingsoon">
                 <div class="card-body">
                     <h5 class="card-title">Web Dev</h5>
@@ -135,8 +97,8 @@
                 </div>
                 <a href="https://github.com/Krithika-anand" class="btn btn-primary">Visit projects</a>
             </div>
-
-            <div class="card" style="width: 18rem;">
+            <!-- card 4 -->
+            <div class="card col-md-2" style="width: 18rem;">
                 <img src="./assets/images/comingsoon.jfif" class="card-img-top" alt="comingsoon">
                 <div class="card-body">
                     <h5 class="card-title">Web Dev</h5>
@@ -147,7 +109,7 @@
 
         </div>
     </div>
-   
+
     <!-- About me/footer section -->
     <div id="aboutMe">
         <section class="container">
@@ -200,6 +162,9 @@
             </div>
         </section>
     </footer>
+
+    <!--test code for grid-->
+
 </body>
 
 </html>

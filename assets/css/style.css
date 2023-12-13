@@ -1,8 +1,6 @@
-* {
-    margin: 0px;
+*{    margin: 0px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-
 
 body {
     background-color: rgba(255, 255, 255, 0.905);
@@ -22,8 +20,7 @@ body {
     border: 20px;
     margin-bottom: 80px;
     padding: 30px;
-    justify-content: center;
-}
+    }
 
 .textshadow {
     text-shadow: 0px 2px 5px rgb(154, 153, 153);
@@ -45,54 +42,10 @@ li {
     margin-left: 20px;
 }
 
-#categoryGrid {
-    margin: 100px;
-    display: grid;
-    grid-template-rows: 200px 200px 200px;
-    grid-template-columns: 3fr 1fr 1fr;
-    grid-template-areas:
-        "architecture architecture architecture"
-        "interiordesign uxDesign uxDesign"
-        "interiordesign webDev others";
+#projects {
+    margin-top: 100px;
 }
-
-#architecture {
-    grid-area: architecture;
-    background-image: url("../images/architecture.jpg");
-
-}
-
-#interiordesign {
-    grid-area: interiordesign;
-    background-image: url("../images/02-living-01.png");
-}
-
-#uxDesign {
-    grid-area: uxDesign;
-    background-image: url("../images/commingsoon1.png");
-}
-
-#webDev {
-    grid-area: webDev;
-    background-image: url("../images/commingsoon1.png");
-}
-
-#others {
-    grid-area: others;
-    background-image: url("../images/Sankriti\ logo.jpg");
-}
-
-.categoryGridArea {
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin: 2px;
-    display: grid;
-    align-content: center;
-}
-
 .heading:hover {
-
     background-color: rgb(68, 67, 67, .9);
     text-shadow: rgba(190, 172, 172, 0.9);
 }
@@ -104,8 +57,14 @@ li {
     color: rgb(38, 38, 38);
     font-size: 22px;
     font-weight: 400;
-
 }
+
+/* .container-card {
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: 20px;
+} */
 
 footer {
     display: flex;
@@ -113,16 +72,13 @@ footer {
 }
 
 /* typography */
-
 #aboutMe p {
     text-align: justify;
 }
 
-
 h2 {
     font-size: 18px;
 }
-
 
 h3 {
     font-size: 25px;
@@ -130,6 +86,12 @@ h3 {
     margin: 0px 10px;
     width: 150px;
 }
+
+/* .container-card .textshadow h3 {
+    justify-content: center;
+    margin-bottom: 30px;
+    align-content: center;
+} */
 
 a {
     color: rgb(85, 84, 84);
@@ -144,26 +106,26 @@ p {
 
 .logoBackground {
     height: calc(100vh - 25px);
-    background-image: url(../images/architecture.jpg); 
+    background-image: url(../images/architecture.jpg);
     image-rendering: grayscale(30%);
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
-.cardContainer {
+/* .cardContainer {
     margin-top: 20px;
     margin-bottom: 80px;
     padding: 20px;
     justify-content: center;
-  }
-  .card {
+} */
+
+.card {
     margin: 0 auto;
-  }
-  
+}
+
 /* Jumbotron copy */
 .jumboCopy {
     width: 70%;
@@ -172,18 +134,5 @@ p {
     color: white;
     text-align: center;
     justify-content: center;
- 
+    margin-bottom: 80px;
 }
-
-
-
-
-
-    $grid-breakpoints: (
-  xs: 0,
-  sm: 576px,
-  md: 768px,
-  lg: 992px,
-  xl: 1200px,
-  xxl: 1400px
-);
