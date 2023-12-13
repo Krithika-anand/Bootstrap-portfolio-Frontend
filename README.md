@@ -8,27 +8,25 @@
 
 # Unit 3 Challenge: Code Bootstrap Portfolio
 
-4. Using Bootstrap, recreate your portfolio site with the following items:
+### A Navigation bar
 
-   The website should include the following bootstrap components:
-
-    - A Navigation bar
+ ![Alt text](image-1.png)
     
-    - A navigation menu at the top. Feel free to use the navbar code provided in Bootstrap's documentation, or create your own navbar by applying the correct Bootstrap classes to your HTML.
+    - A fixed navbar the top created using bootstrap elements
 
-      - Include links that are applicable to your portfolio.
+           - Links navigate to the appropriate sections 
   
-        - Links should navigate to the appropriate sections 
 
-    - A hero section
+### A hero section
 
-        - A jumbotron featuring your picture, your name, and any other information you'd like to include.
+        - Using jumbotron created a picture, included my name, and any other information. Also created a button to go to my projects section.
 
-    - A work section
+       
+### work section
 
-      - A section displaying your work in grid. 
+     section displaying my work in grid. 
 
-        - If you need to use placeholder image use: https://placehold.co/ 
+        
 
       - Use bootstrap cards for each project.
 
