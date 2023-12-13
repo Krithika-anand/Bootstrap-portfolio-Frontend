@@ -8,7 +8,7 @@
 
 # Unit 3 Challenge: Code Bootstrap Portfolio
 
-### A Navigation bar
+### Navigation bar
 
  ![Alt text](image-1.png)
     
@@ -17,7 +17,7 @@
            - Links navigate to the appropriate sections 
   
 
-### A hero section
+### hero section
 
         - Using jumbotron created a picture, included my name, and any other information. Also created a button to go to my projects section.
 
@@ -38,7 +38,7 @@
 
       - List out the skills you expect to learn from the bootcamp.
 
-### Know me section An about / contact section.
+### Know me section (about / contact section).
 ![Alt text](image-2.png)
 
       - An "About Me" section in the same row.
