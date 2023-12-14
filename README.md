@@ -13,10 +13,11 @@
  ![Alt text](image-1.png)
 
   ### Navigation bar  
-    - A fixed navbar the top created using bootstrap elements
+    A fixed navbar the top created using bootstrap elements
 
-           Links navigate to the appropriate sections
-           My photo will take to homepage 
+    Links navigate to the appropriate sections
+           
+    Clicking on My photo will take to homepage 
 
               <nav class="navbar fixed-top bg-body-tertiary">
         <div class="container-fluid">
@@ -56,12 +57,16 @@
 
   project is linked to hyperlinks!
 
- ### Know me section (about / contact section).
-![Alt text](image-2.png)
+ ### A footer section 
 
-      - An "About Me" section in the same row.
+ #### Know me section.
+![Alt text](image-6.png)
+
+      - An "About Me" section in the same row with title, my photo and write up about me.
+
+#### Know me section
     
-    - A footer section.
+  ![Alt text](image-7.png)
 
       - All hyperlinks have a hover effect.
 
