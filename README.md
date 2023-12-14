@@ -48,26 +48,15 @@
        
 ### work section
 
-     section displaying my work in grid. 
+    section displaying my work in grid. 
 
- ![Alt text](image-4.png)
+    Used bootstrap cards for each project.
 
-### experience section
-      - Used bootstrap cards for each project.
+![Alt text](image-5.png)
 
- ![Alt text](image-3.png)
+  project is linked to hyperlinks!
 
-
-
-      The description should give a brief overview of the work.
-
-     project is linked to hyperlinks!
-
-    - A skills section
-
-      - List out the skills you expect to learn from the bootcamp.
-
-### Know me section (about / contact section).
+ ### Know me section (about / contact section).
 ![Alt text](image-2.png)
 
       - An "About Me" section in the same row.
@@ -78,7 +67,7 @@
 
       - All buttons display a box shadow upon hover.
 
-5. Your Bootstrap solution should minimize use of media queries.
+
 
 
 
