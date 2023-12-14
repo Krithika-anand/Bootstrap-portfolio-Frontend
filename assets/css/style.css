@@ -16,7 +16,7 @@ body {
 .container {
     display: inline-flex;
     align-items: center;
-    width: 95%;
+    width: 100%;
     border: 20px;
     margin-bottom: 80px;
     padding: 30px;
@@ -40,6 +40,7 @@ body {
     padding-left: 15px;
     margin-left: 0px;
     border-left: 3px solid #452a2a;
+    align-items: center;
 }
 
 li {
