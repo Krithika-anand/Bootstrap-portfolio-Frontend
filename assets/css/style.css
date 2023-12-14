@@ -22,6 +22,11 @@ body {
     padding: 30px;
     }
 
+#break {
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+
 .textshadow {
     text-shadow: 0px 2px 5px rgb(154, 153, 153);
 }
@@ -42,21 +47,20 @@ li {
     margin-left: 20px;
 }
 
-#projects {
-    margin-top: 100px;
-}
+
 .heading:hover {
-    background-color: rgb(68, 67, 67, .9);
-    text-shadow: rgba(190, 172, 172, 0.9);
+    background-color: rgb(68, 67, 67, .5);
+    text-shadow: rgba(83, 38, 38, 0.9);
 }
 
 .heading {
-    background-color: rgba(35, 58, 59, 0.5);
+    background-color: rgba(41, 57, 58, 0.5);
     padding: 30px;
     height: 30px fit-content;
     color: rgb(38, 38, 38);
     font-size: 22px;
-    font-weight: 400;
+    font-weight: 700;
+    text-shadow: #452a2a;
 }
 
 /* .container-card {
